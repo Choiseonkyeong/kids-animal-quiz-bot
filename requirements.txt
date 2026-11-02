@@ -1,0 +1,9 @@
+# 대본 생성 (Claude API)
+anthropic==2.3.0
+# 영상 합성. Pillow, numpy, imageio-ffmpeg를 함께 설치함
+moviepy==2.2.1
+# .env 로드
+python-dotenv==1.2.4
+# YouTube Data API v3 업로드 (--upload 할 때만 사용)
+google-api-python-client==2.201.0
+google-auth-oauthlib==1.5.0

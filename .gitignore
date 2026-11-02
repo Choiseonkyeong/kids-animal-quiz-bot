@@ -1,0 +1,22 @@
+# 비밀 정보
+.env
+token.json
+client_secret*.json
+
+# 생성물
+output/
+data/history.json
+assets/cache/
+
+# 폰트·음원은 각자 라이선스 확인 후 직접 넣음
+assets/fonts/*
+assets/sounds/*
+assets/bgm/*
+assets/sfx/*
+assets/images/*
+!assets/**/.gitkeep
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
